@@ -127,7 +127,7 @@ async def add_ref_on_join(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
-    TOKEN = os.getenv("BOT_TOKEN")  # TOKEN railway variablesdan olinadi
+    TOKEN = os.getenv("8365576118:AAHSRYraKNCS8DQLpsuC0pNgg6CWULk60HU")  # TOKEN railway variablesdan olinadi
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("sen", sen))
